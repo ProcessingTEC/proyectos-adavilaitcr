@@ -16,7 +16,8 @@ void setup() {
   SetControl();
 
   size(1200, 800);
-  font = loadFont("Perpetua-BoldItalic-48.vlw");
+  //font = loadFont("Perpetua-BoldItalic-48.vlw");
+  font = loadFont("AmericanTypewriter-64.vlw");
   data = loadStrings("Datos.txt");
   
   //angle = data.length;
